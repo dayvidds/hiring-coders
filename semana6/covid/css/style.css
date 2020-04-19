@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+}
+
+#menu ul {
+    padding: 0px;
+    margin: 0px;
+    background-color: #EDEDED;
+    list-style: none;
+    display: flex;
+}
+
+#menu ul li { display: inline; }
+
+#menu ul li a {
+    padding: 5px 10px;
+    display: inline-block;
+
+    /* visual do link */
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+
+
+
+.topo{
+    background-color: rgb(200, 200, 210);
+}
+.topo img {
+    max-width:90px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+footer{
+    background-color: rgb(200, 200, 210);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+

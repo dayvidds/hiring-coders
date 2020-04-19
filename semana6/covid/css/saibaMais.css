@@ -1,0 +1,15 @@
+.saibaMais ol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.saibaMais a {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #000;
+}
+
+.saibaMais a:hover {
+    color: #1E90FF;
+}
