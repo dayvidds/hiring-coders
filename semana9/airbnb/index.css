@@ -1,0 +1,58 @@
+body {
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    justify-content: space-between;
+    padding: 0px 120px;
+
+}
+
+main {
+    flex: 1;
+    padding: 10px 160px 40px 160px;
+}
+
+.blocos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: -16px;
+}
+
+.bloco {
+    flex: 0 1 25%;
+}
+
+.blocoInterno {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.imagem-apt {
+    border-radius: 7px;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 180px;
+}
+
+.tipo {
+    margin-top: 0;
+    margin-bottom: 3px;
+    color: #b44747;
+}
+
+.nome {
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border-top: 1px solid #686868;
+}
+
